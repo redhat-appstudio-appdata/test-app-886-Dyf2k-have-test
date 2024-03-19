@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-parent-image-with-digest-only-cmnb
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-886/e2e-tests-parent-image-with-digest-only-cmnb@sha256:fadd0420af0aa2df843e331902008c10ff54ccd269d7b1a475b2aad5ba60c17b
         imagePullPolicy: Always
         name: container-image
         ports:
