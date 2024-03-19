@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: maven-hello-world-klps
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-886/maven-hello-world-klps@sha256:5f729f41cd39d1d0d0c4ac59b9d48e7f0ee32067140555f68b18cd10b0199d78
         name: my-java-quarkus
         ports:
         - containerPort: 8081
